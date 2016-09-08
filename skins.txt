@@ -208,3 +208,5 @@ backswing
 spike
 smash
 dunk
+bull_king
+jade_dragon
