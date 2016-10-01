@@ -612,7 +612,7 @@ if (null === client_uuid || 15 != client_uuid.length) {
 window.FZZBOT = {
   server : true,
   playerName : "",
-  startBotAmount: 18,
+  startBotAmount: 15,
   playerX : 0,
   playerY : 0,
   mouseX : 0,
@@ -637,7 +637,7 @@ window.FZZBOT = {
   remoteBots : {},
   remoteBotsAlive : {},
   leaderboardData : "",
-  serverBots : 18,
+  serverBots : 15,
   isAuthorized : !1,
   drawMinimap : true,
   setMapCoords : function(a, b, c, d, e, f) {
