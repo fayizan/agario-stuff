@@ -20,7 +20,7 @@ function updateBotCount(a, b) {
   if (0 == c) {
     $("#botCount").html('<font color="red">0 / ' + d + "</font>");
   } else {
-    $("#botCount").html('<font color="#7FFF00">' + c + " / " + 20 + "</font>");
+    $("#botCount").html('<font color="#7FFF00">' + c + " / " + 50 + "</font>");
   }
 }
 function startLocalBots() {
