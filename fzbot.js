@@ -10,7 +10,7 @@ function escapeHtml(a) {
 function updateBotCount(a, b) {
   FZZBOT.localBotsAlive[a] = b;
   var c = FZZBOT.serverBots;
-  var d = 5 + FZZBOT.serverBots;
+  var d = 4 + FZZBOT.serverBots;
   var e = 0;
   for (;e < 2;e++) {
     if (FZZBOT.localBotsAlive[e]) {
@@ -20,7 +20,7 @@ function updateBotCount(a, b) {
   if (0 == c) {
     $("#botCount").html('<font color="red">0 / ' + d + "</font>");
   } else {
-    $("#botCount").html('<font color="#7FFF00">' + c + " / " + 200 + "</font>");
+    $("#botCount").html('<font color="#7FFF00">' + c + " / " + 20 + "</font>");
   }
 }
 function startLocalBots() {
@@ -612,7 +612,7 @@ if (null === client_uuid || 15 != client_uuid.length) {
 window.FZZBOT = {
   server : true,
   playerName : "",
-  startBotAmount: 15,
+  startBotAmount: 10,
   playerX : 0,
   playerY : 0,
   mouseX : 0,
@@ -637,7 +637,7 @@ window.FZZBOT = {
   remoteBots : {},
   remoteBotsAlive : {},
   leaderboardData : "",
-  serverBots : 15,
+  serverBots : 10,
   isAuthorized : !1,
   drawMinimap : true,
   setMapCoords : function(a, b, c, d, e, f) {
