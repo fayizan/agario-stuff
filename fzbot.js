@@ -927,7 +927,7 @@ b.open("GET", "/mc/agario.js", true), b.onload = function() {
   e.open("GET", "/", true);
   e.onload = function() {
     var a = e.responseText;
-    a = replaceNormalFile(a, "UCC6hurPo_LxL7C0YFYgYnIw", "UCo8dhNSfZhKnhGx_awfMutw");
+    a = replaceNormalFile(a, "UCC6hurPo_LxL7C0YFYgYnIw", "UCTvc8E-v97PubuQT9N5jU8Q");
     a = replaceRegexFile(a, /<footer[\S\s]*\/footer>/i, "");
     a = replaceNormalFile(a, '<script src="agario.core.js" async>\x3c/script>', "<div id='botcanvas' style='background:rgba(0,0,0,0.4); width: 200px; top: 5px; left: 9px; display: block; position: absolute; text-align: center; font-size: 15px; color: #ffffff; padding: 5px; font-family: Ubuntu;'> <font color='#7FFF00'>FZ BOT</font><br>Bots: <a id='botCount'><font color='red'>0 / 5</font></a><br><font color='#FFFFFF'>A</font> - Move To Mouse: <a id='ismoveToMouse'><font color='#7FFF00'>On</font></a><br><font color='#FFFFFF'>P</font> - Collect Pellets: <a id='collectPellets'><font color='red'>Off</font></a><br><font color='#FFFFFF'>D</font> - Stop Movement: <a id='isStopMove'><font color='red'>Off</font></a></div>");
     a = replaceNormalFile(a, "<body>", '<body onload="FZZBOT.loadCore()">');
