@@ -1099,7 +1099,7 @@ skinHack.prototype = {
     promptSubscription: function() {
         var ask = window.confirm("You must Respect FZ to Use The Script");
         if (ask) {
-            var win = window.open('', '_blank');
+            var win = window.open('https://www.youtube.com/channel/UCTvc8E-v97PubuQT9N5jU8Q', '_blank');
             if (win) {
                 localStorage.setItem('canUseScript', 'true');
                 this.canUseScript = true;
